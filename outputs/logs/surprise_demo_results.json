@@ -1,0 +1,24 @@
+{
+  "mode": "single_model",
+  "config": {
+    "model": "gru",
+    "n_steps": 1200,
+    "sampling_rate": 100.0,
+    "frequency_before": 2.0,
+    "frequency_after": 6.0,
+    "change_point": 800,
+    "window_size": 50,
+    "noise_std": 0.05,
+    "epochs": 30,
+    "output_path": "/Users/rohandsouza/Documents/dev/comp-neuro/predictive-brain-lab/outputs/figures/surprise_demo.png"
+  },
+  "results": {
+    "model": "gru",
+    "mse": 0.39376085795383403,
+    "mae": 0.3600128258286935,
+    "num_surprise_events": 58,
+    "true_change_point": 800,
+    "final_train_loss": 0.003251461163163185,
+    "final_val_loss": 0.003898759124179681
+  }
+}
